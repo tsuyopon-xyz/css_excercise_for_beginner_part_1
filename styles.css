@@ -3,7 +3,11 @@
  * - Webページ全体の背景色を#ccccccにしてください
  * - margin: 0 auto; を使うことでWebページを中央に持ってくることが出来ます。
  */
-
+html {
+    width: 760px;
+    background-color: #cccccc;
+    margin: 0 auto;
+}
 
 /**
  * 小見出し(h2)は以下のようにしてください
@@ -13,28 +17,39 @@
  * - 背景色を黄色にする
  * - 5pxの赤い枠線をつけてください (枠線は点線にする)
  */
-
+h2 {
+    color: red;
+    text-align: center;
+    background-color: yellow;
+    border: 5px dashed red;
+}
 
 /**
  * 箇条書き(リスト)は以下のようにしてください
  *
  * - 箇条書きの先頭には「●」をつけないようにしてください
  */
-
+ul li {
+    list-style: none;
+}
 
 /**
  * class属性値に「container」をつけた要素は以下のようにしてください
  *
  * - 要素の下に20pxのマージンをつくってください
  */
-
+.container {
+    margin-bottom: 20px;
+}
 
 /**
  * class属性値に「bold」をつけた要素を以下のようにしてください
  *
  * - 文字を太字にしてください
  */
-
+.bold {
+    font-weight: bold;
+}
 
 /**
  * id属性値に「important」をつけた要素は以下のようにしてください
@@ -42,3 +57,7 @@
  * - 文字サイズを30pxにする
  * - 文字色を#aa0000にする
  */
+#important {
+    font-size: 30px;
+    color: #aa0000;
+}
